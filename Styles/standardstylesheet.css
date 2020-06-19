@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../Font/Roboto-Regular-webfont.eot');
+    src: url('../Font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Font/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../Font/Roboto-Regular-webfont.woff') format('woff'),
+         url('../Font/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../Font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../Font/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* /*police all*/{font-family: 'robotoregular', Arial, Helvetica, sans-serif;}
+p{
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+}
+ul{
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+}
+mark{
+    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+                                /* couleurs principales */
+.primaire{
+    background-color: #7F695B;
+}
+
+.secondaire{
+    background-color: #E9B882;
+}
+
+.tertiaire{
+    
+}
+                                    /* CSS body*/
+body{
+    top:65px;
+    position: relative;
+    text-align: justify;     
+}
+
+                                    /* CSS dde la nav bar*/
+#navigationBare{
+    border-top-style: solid;
+	border-top-color: #E9B882;
+	border-top-width: 25px;
+    color: white;
+    padding: 0px;
+    flex-wrap: nowrap;
+    
+}
+nav a:hover {
+  color: #FFF;
+  background-color: #E9B882;
+  text-decoration: none;
+}
+.material-icons{
+    font-size: 27px;
+    vertical-align: sub;
+}
+.langues
+{
+	float: right;
+	display: flex;
+	background-color: #7F695B;
+    justify-content: flex-end;
+}
+
+
+                                    /* CSS du footer */
+
+.hauteur
+{
+	height: 55px;
+	display: flex;
+	align-items: center;
+    place-content: center;
+    list-style: none;
+
+}
+.googleplus
+{
+	width: 35px;
+}
+footer
+{
+
+	border-top-style: solid;
+	border-top-color: #E9B882;
+	border-top-width: 25px;
+    
+	background-color: #7F695B;
+	padding: 0;
+	margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+                                    /*CSS des titres*/
+
+
+
+                  /*Groupe de styles pécifique au portfolio*/          
+/* CSS photo  */

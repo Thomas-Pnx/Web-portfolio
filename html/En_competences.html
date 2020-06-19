@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!--Dimentionnement de la page pour bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- appel des fonctions bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+        
+                <!-- appel des icons google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+                <!-- CSS commun -->
+        <link rel="stylesheet" href="../Styles/standardstylesheet.css"/>
+        
+        <!-- lien vers la feuille dédiée css -->
+        <link rel="stylesheet" href="../Styles/stylecompetences.css"/>
+        
+        <!-- lien vers les fonctions JQuerry javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- lien vers les fonctions Chartjs javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+        
+        <!-- Appel du pluggin chartjs pour les labels inside slices-->  
+        <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
+        
+        <!-- Appel de la librairie google chart-->      
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+         <!-- lien vers la feuille js -->
+        <script src="../Script/En_scriptcompetences.js"></script>
+        
+        
+        
+        <!-- Appel de l'icon --> 
+        <link rel="icon" type="image/png" href="../contents/favicon-32x32.png" />
+
+        <title>TP</title> 
+	</head>
+
+<body>
+    <!-- navbar commun -->
+    <nav class="navbar navbar-expand-sm fixed-top primaire " id="navigationBare">
+        
+        <!-- back to resume non collapsable -->
+        <div class="col-3" >
+            <a class="navbar-brand text-white  px-2" href="../index.html">PORTFOLIO<i class="material-icons" >home</i></a>
+        </div>
+        
+        <!-- toggle fonction lorsque le viewer screen passe en dessous de 576px SM-->
+          <button class="navbar-toggler  bd-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: white; border-radius:0; height: 40px;" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+   <i class="material-icons md-27">list</i>
+  </button>
+        
+        
+        
+
+  <!-- nav links collapsable -->
+        <div class="collapse navbar-collapse col-7" id="collapsibleNavbar">
+          <ul class="navbar-nav justify-content-center ">
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-2 " href="En_experiences.html">EXPERIENCES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-2 " href="En_formations.html">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-2 secondaire" href="#">SKILLS</a>
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white pl-2" href="En_ressources.html">RESOURCES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white pl-2" href="En_contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- langue -->
+        <div class="col-2">
+            <ul class="navbar-nav float-right" >
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="indexfr.html">Fr</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+		
+
+
+	
+
+	
+	
+
+	<div class="main">
+
+	
+
+
+
+
+
+
+
+
+		<div id="midle" class="container-fluid">
+			<div class="row" style="width: 100%">
+                
+				<div id="experiences" class="col-12"> 
+				
+                 
+<!-- 
+                    <img src="../contents/comp%C3%A9tencesbare.PNG" style="width: 100%; margin: 20px 0px 20px 0px;"/>
+                     <div class="infogram-embed" data-id="d1598938-4ecd-44da-8332-6b4b9033c19d" data-type="interactive" data-title=""></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script>
+                    
+                     
+-->
+
+					   <div class="abcare row">
+                            <div class="abcgauche col-xl-6">
+                                <div class="container-fluid">	
+                                     <a id="soft" class="element"><img src="../contents/SVG/Plan%20de%20travail%201.svg" style="width: 100%; margin: 0px;"/></a>
+                                </div>
+                            </div>
+                        
+                            <div class="abcdroite col-xl-6" style="width: 100%; height: 100%;">
+                                <div id="softchart" class="container-fluid" style="background-color: none;  margin: 0px; width: 100%; height: 100%;" >
+                                    <div id="col_chart_html_tooltip" class="chart" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                            
+      
+                    
+                    
+                    
+                    
+                    
+                    <div class="abcare row">
+                            <div class="abcgauche col-xl-6">
+                                <div class="container-fluid">	
+                                     <a id="eco" class="element"><img src="../contents/SVG/Plan%20de%20travail%202.svg" style="width: 100%; margin: 0px;"/></a>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="abcdroite col-xl-6" style="width: 100%; height: 100%;">
+                                <div id="ecochart" class="container-fluid" style="background-color: none;  margin: 0px; width: 100%; height: 100%;" >
+                                    <div id="col_chart1_html_tooltip" class="chart" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    
+                    
+                    <div class="abcare row">
+                            <div class="abcgauche col-xl-6">                    
+                                <div class="container-fluid">	
+                                     <a id="tecnic" class="element"><img src="../contents/SVG/Plan%20de%20travail%203.svg" style="width: 100%; margin: 0px;"/></a>
+                                </div>
+                            </div>
+                    
+                            <div class="abcdroite col-xl-6">                  
+                                <div id="tecnicchart" class="container-fluid" style="background-color: none;  margin: 0px; width: 100%; height: 100%;" >
+                                    <div id="col_chart2_html_tooltip" class="chart" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    
+                    
+                    
+                    
+                    
+                    
+
+                </div>
+			</div>	
+		</div>
+	</div>
+    <footer class="primaire">
+        <div>
+				<ul class="hauteur">
+					<a href="https://www.linkedin.com/in/thomas-pendanx-5056b2140/"><img src="../contents/linkedin-brands.svg" class="googleplus"></a>
+					
+
+					<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><img src="../contents/google-plus-g-brands.svg" class="googleplus" ></button>
+                    
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Mail-address</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <a href="mailto:thomas.pendanx@gmail.com">thomas.pendanx@gmail.com</a>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</ul>
+			</div>
+			<div class="text-sm-center">
+			<p class="mb-0 text-center">	2020  - All rights reserved - &copy</p>
+			</div>
+    </footer>
+ 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- appel de bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	</body>
+</html>

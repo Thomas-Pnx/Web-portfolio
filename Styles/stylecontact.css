@@ -1,0 +1,66 @@
+h1
+{
+	/*background-color: #BACEE6;*/
+	color: #7F695B;
+
+	border-bottom-style: solid;
+	border-bottom-color: #7F695B;
+	border-bottom-width: 15px;
+
+	overflow: hidden;
+	font-weight: bold;
+
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 69px;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+    text-align: center;
+}
+h2
+{
+	/*border-top-style: solid;
+	border-top-color: #535B66;
+	border-top-width: 15px;
+	border-left-style: solid;
+	border-left-color: #7F695B;
+	border-left-width: 30px;*/
+	padding: 10px 0px 0px 10px;
+	margin-top: 80px;
+    margin-bottom: 60px;
+	color: #7F695B;
+    font-weight: 450;
+    font-size: 1.15rem;
+}
+
+h3
+{
+	/*border-left: 15px solid #E9B882;*/
+  	/*background-color: #BACEE6;*/
+  	padding: 10px;
+  	margin: 5% 0% 0px 0%;
+  	text-align: left;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+h4
+{
+	/*border-left-style: solid;
+	border-left-color: #E9B882;
+	border-left-width: 15px;*/
+	padding-left: 25px;
+    font-size: 1.15rem;
+    margin-top: 75px;
+}
+
+#experiences
+{
+	flex: 3; /*ce bocl fait 3 fois la taille du lateral*/
+	display: block;/*les class "elements" deviennent des blocs */
+	text-align: justify;
+	padding: 0px 10px 0px 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+    position: inherit;
+}

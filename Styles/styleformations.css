@@ -1,0 +1,126 @@
+h1
+{
+	/*background-color: #BACEE6;*/
+	color: #7F695B;
+
+	border-bottom-style: solid;
+	border-bottom-color: #7F695B;
+	border-bottom-width: 15px;
+
+	overflow: hidden;
+	font-weight: bold;
+
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 69px;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+    text-align: center;
+}
+h2
+{
+	/*border-top-style: solid;
+	border-top-color: #535B66;
+	border-top-width: 15px;*/
+	border-left-style: solid;
+	border-left-color: #7F695B;
+	border-left-width: 30px;
+	padding: 10px 0px 0px 10px;
+	margin-top: 80px;
+	color: #7F695B;
+    font-weight: 600;
+    text-align: -webkit-left;
+}
+
+h3
+{
+	border-left: 15px solid #E9B882;
+  	/*background-color: #BACEE6;*/
+  	padding: 10px;
+  	margin: 5% 0% 0px 0%;
+  	text-align: left;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+h4
+{
+	border-left-style: solid;
+	border-left-color: #E9B882;
+	border-left-width: 15px;
+	padding-left: 25px;
+    font-weight: 500;
+    margin-left: 8%;
+}
+
+mark
+{
+    background: none;
+}
+
+.element
+{
+	margin-left: 5%;
+}
+
+.element li
+{
+	text-align: left;
+	margin-left: 5%;
+}
+.contact
+{
+	text-align: right;
+	font-style: italic;
+	margin-right: 15px;
+}
+.année
+{
+	text-align: right;
+	font-style: italic;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+.temps
+{
+    font-style: normal;
+}
+
+
+
+
+
+#experiences
+{
+	flex: 3; /*ce bocl fait 3 fois la taille du lateral*/
+	display: block;/*les class "elements" deviennent des blocs */
+	text-align: justify;
+	padding: 0px 10px 0px 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+    position: inherit;
+}
+#experiences li
+{
+    text-align: -webkit-left;
+}
+
+#competences
+{
+	margin-top: 40px;
+    margin-left: 8%;
+}
+/*#competences li
+{
+	margin-left: 40px;
+	text-align: none;
+}*/
+
+
+#competences ul
+{
+	list-style: inside;
+}
+
+
+
